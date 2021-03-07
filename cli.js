@@ -145,15 +145,11 @@ const movingServices = () => {
     )
 }
 
-const main = () => {
-    mvnManager()
-        .then(() => joliePostInstall())
-        .then(() => movingServices())
-        .then(() => {
-            spinner.succeed("Java services moved to lib!")
-            spinner.succeed("👁 Done!")
-        })
-        .catch(error => console.error(error))
-}
-
-main()
+mvnManager()
+    .then(() => joliePostInstall())
+    .then(() => movingServices())
+    .then(() => {
+        spinner.succeed("Java services moved to lib!")
+        spinner.succeed("👁 Done!")
+    })
+    .catch(error => console.error(error))
