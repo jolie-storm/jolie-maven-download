@@ -1,10 +1,13 @@
 {
   "name": "jolie-postinstall",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
-  "bin": "./cli.js",
+  "bin": "./index.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ignore './lib/' --ignore './packages/' ./src",
+    "prd": "node ./cli.js"
   },
   "repository": {
     "type": "git",
