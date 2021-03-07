@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const pomParser = require("pom-parser");
 const fs = require("fs");
 const path = require("path")
@@ -8,7 +9,7 @@ const fse = require('fs-extra');
 const util = require("util");
 const fetch = require("node-fetch");
 const ora = require('ora');
-const spinner = ora('Copying Java service')
+const spinner = ora('Starting...')
 
 
 const getDirectories =
