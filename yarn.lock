@@ -532,6 +532,11 @@ is-yarn-global@^0.3.0:
   resolved "https://registry.npmjs.org/is-yarn-global/-/is-yarn-global-0.3.0.tgz"
   integrity sha512-VjSeb/lHmkoyd8ryPVIKvOCn4D1koMqY+vqyjjUfc3xyKtP4dYOxM44sZrnqQSzSds3xyOrUTLTC9LVCVgLngw==
 
+jolie-jwt@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/jolie-jwt/-/jolie-jwt-1.0.2.tgz#60ec73bcb4741e67103dcf3d8ca25039d34c96de"
+  integrity sha512-kaQK397imvgKmnHvdNe7bG/AvRn7uv79cuWkbgT4MChUfkfr0ptFOGHr09dqp3MLrlpHfyQA0BfYf6B17IIFHQ==
+
 json-buffer@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.0.tgz"
