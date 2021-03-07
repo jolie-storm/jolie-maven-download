@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const pomParser = require("pom-parser");
 const fs = require("fs");
 const path = require("path")
